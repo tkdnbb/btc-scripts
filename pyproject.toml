@@ -1,0 +1,19 @@
+[project]
+name = "btctest"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "base58>=2.1.1",
+    "bech32>=1.2.0",
+    "bech32m>=1.0.0",
+    "bip32>=4.0",
+    "bit>=0.8.0",
+    "bitcoinlib>=0.7.0",
+    "cryptography>=44.0.0",
+    "ecdsa>=0.19.0",
+    "mnemonic>=0.21",
+    "pycoin>=0.92.20241201",
+    "uvicorn>=0.34.0",
+]
